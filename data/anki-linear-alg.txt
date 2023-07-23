@@ -1,0 +1,189 @@
+Vectors; A vector is a mathematical object possessing both magnitude and direction. It is often described as an arrow, starting at one point (origin) and pointing towards another point. In linear algebra, vectors can be added, subtracted, and scaled.
+
+Vector Addition; If we have 2 vectors, we can create a new vector by placing the initial point of one vector at the terminal point of the other vector. The resultant vector extends from the initial point of the original vector to the terminal point of the added vector. This is called vector addition.
+
+Vector Multiplication; There are two types of vector multiplication: scalar multiplication and vector product. In scalar multiplication, we multiply a vector by a scalar (number), and the result is a vector. For the vector product, we multiply 2 vectors and get another vector. The magnitude of the resultant vector is equal to the product of the magnitudes of the original vectors times the sine of the angle between them.
+
+Linear Combinations; In linear algebra, a linear combination of some vectors is the vector that can be obtained by scaling and then adding the vectors.
+
+Dot Product; The dot product, or scalar product, is an operation that takes two equal-sized vectors and returns a single scalar number. The dot product of two vectors reflects the degree to which the vectors point in the same, or opposite, directions.
+
+Matrix; A matrix is a rectangular array of numbers arranged in rows and columns. Matrices are used for various operations like adding, subtracting or multiplication and can represent a system of linear equations.
+
+Matrix Multiplication; In matrix multiplication, the elements in the rows of the first matrix are multiplied correspondingly with elements in the columns of the second matrix and then added to obtain the elements in the resultant matrix.
+
+Determinant; The determinant is a special number that is calculated from a matrix. It is used in solving systems of linear equations, finding inverse of a matrix, in calculus, etc. 
+
+Inverse Matrix; The inverse of a matrix A is denoted as A^-1. When a matrix is multiplied by its inverse, the identity matrix is obtained, which is the matrix equivalent of 1 in multiplication.
+
+Eigenvalue and Eigenvector; Eigenvectors are vectors whose direction remains unchanged after a linear transformation. The scale of the change in the vector is denoted by the eigenvalue. These are fundamental concepts in understanding vibrations, fluid dynamics, and even Google's PageRank algorithm.
+
+System of Linear Equations; This is a collection of linear equations involving the same set of variables. These systems are often written in matrix form.
+
+Dimension; In linear algebra, the dimension is the maximum number of linearly independent vectors in a vector space or its generalization. These dimensions can represent concepts in numerous scientific fields from geometry to physics.
+
+Rank of a Matrix; The rank of a matrix is defined as the maximum number of linearly independent column vectors in the matrix or the maximum number of linearly independent row vectors.
+
+Span; The span is the set of all possible vectors that can be created with a combination of scalar multiplication and vector addition of a set of vectors.
+
+Basis; The basis of a vector space is a set of vectors that are linearly independent and that span the vector space.
+
+Orthogonal Vectors; Two vectors are orthogonal to each other if their dot product equals 0.
+
+Unit Vector; A unit vector is a vector that has a magnitude of 1. 
+
+Linear Independence; A set of vectors is said to be linearly independent if no vector in the set can be written as a linear combination of the others. 
+
+Vector Subspaces; A vector subspace is a subset of a vector space that forms a vector space in its own right, with the same operations of addition and scalar multiplication. 
+
+Linear Transformation; A linear transformation is a mapping between two spaces that preserves the operations of vector addition and scalar multiplication. 
+
+Kernel and Range; In the context of linear transformations, the kernel is the set of all vectors which get mapped to the zero vector, and the range is the set of all possible output vectors.
+
+Least Squares; In the context of linear algebra, least squares is a method used to minimally approximate the solution of overdetermined systems (systems with more equations than unknowns) by minimizing the sum of the squares of the residuals.
+
+QR Decomposition; QR decomposition decomposes a matrix into a product of an orthogonal matrix, Q, and an upper triangular matrix, R. It is used in linear least squares computation.
+
+Jordan Canonical Form; The Jordan canonical form is a way of simplifying a matrix to a much easier-to-understand form- a block diagonal matrix with Jordan blocks along the diagonal. The blocks reveal the eigenvalues of the matrix and its geometric multiplicity. 
+
+Singular Value Decomposition (SVD); SVD decomposes a matrix into three other matrices, revealing important properties about the transformation the original matrix represents. It can be used for image compression or dimensionality reduction in data analysis.
+
+Operator Theory; In linear algebra, operator theory consists of the study of linear operators on vector spaces. These operators often represent physical phenomena or transformations, and understanding their properties can yield deep insights about the underlying system.
+
+Linear Programming; Linear programming, while not strictly a part of linear algebra, relies heavily on it. It is a set of mathematical techniques used to optimize an objective function subject to a set of constraints, and is used widely in business and economics.
+
+Gram-Schmidt Process; This algorithm orthogonalizes a set of vectors into a set of orthogonal vectors that spans the same subspace. This process is especially useful in constructing orthogonal bases.
+
+Diagonalization; Essentially, diagonalization is the process of finding a basis that allows a linear transformation to be represented by a diagonal matrix (a matrix with non-zero entries only on the diagonal). This simplifies many computations, for it is easy to perform operations on diagonal matrices.
+
+Norm of a Vector; The norm (or length) of a vector is a non-negative number that in a geometric sense gives the length of the vector. Usually calculated as the square root of the sum of squares of the vector components.
+
+Column Space and Null Space; In linear algebra, the column space (or image) of a matrix A is the span (set of all possible linear combinations) of its column vectors. The null space (or kernel) of A is the set of all vectors that become null vector when multiplied by A.
+
+Trace of a Matrix; The trace of a square matrix is the sum of the elements on its main diagonal. The trace is linear and has the property that the trace of the product of two square matrices (when the product is defined) equals the product of their traces.
+
+Projection; A projection is the transformation of points in some space to a subspace (usually a line, plane or set of coordinate axes). In detail, the transformation is carried out by connecting the points to be projected to the reference point in the subspace by a segment perpendicular to the subspace.
+
+Matrix Transpose; The transpose of a matrix interchanges each element a_ij with a_ji, in other words, it flips a matrix over its diagonal. It has the property that the transpose of the sum of two matrices is the sum of their transposes.
+
+Identity Matrix; The identity matrix, denoted by "I", is a square matrix with ones on the diagonal and zeros elsewhere. Multiplying a matrix with its inverse yields the Identity matrix.
+
+Eigenvalues and Diagonalization; A square matrix A is diagonalizable if it is similar to a diagonal matrix — that is, if there exists an invertible matrix P such that P^-1AP is a diagonal matrix. If such a matrix P exists, one can find the eigenvalues of the matrix A from the diagonals of the diagonal matrix.
+
+Row Space; The row space of a matrix is the set of all possible linear combinations of its row vectors.
+
+LU Decomposition; LU decomposition factors a matrix as the product of a lower triangular matrix and an upper triangular matrix. The primary use is in numerical linear algebra for the solution of systems of linear equations.
+
+Hadamard Product; The Hadamard product (or element-wise product) is a binary operation that takes two matrices of the same dimensions and produces another matrix of the same dimension with the products of the elements in the corresponding positions in the matrices.
+
+Orthogonal Matrices; An orthogonal matrix is a square matrix whose rows and columns are orthogonal unit vectors. Orthogonal matrices preserve the dot product, so, as linear transformations, they can rotate the space, but not alter distances or angles.
+
+Cofactor; In linear algebra, the cofactor of a matrix element is the signed determinant of the submatrix formed by deleting the element's row and column. It's used in calculating the inverse of the matrix.
+
+Pseudo-Inverse; The pseudo-inverse of a matrix is a generalization of the inverse matrix. The pseudo-inverse of a non-square matrix is used for calculational purposes like solving system of linear equations, which may have no solutions.
+
+Cross Product; In three-dimensional space, the cross product of two vectors is another vector whose direction is perpendicular to both and length is given by the product of lengths and the sine of the angle between them.
+
+Gramian Matrix; The Gramian matrix or Gram matrix is a Hermitian matrix (symmetric and the off-diagonal elements are the conjugate of each other), whose elements are the scalar product of the vector space elements. This matrix is useful in solving equations involving inner product.
+
+Rayleigh Quotient; The Rayleigh quotient for a square matrix A with respect to a non-zero vector x is the ratio x^T(A)x : x^Tx which pops up in the field of vibration analysis, quantum mechanics, chemical engineering etc.
+
+Cholesky Decomposition; Cholesky Decomposition decomposes a Hermitian, positive-definite matrix into the product of a lower triangular matrix and its conjugate transpose. It is used for efficient numerical solutions such as Monte Carlo simulations.
+
+Row Echelon Form; The row-echelon form of a matrix is the result of Gaussian elimination - a process of using elementary row operations to make all the elements below and sometimes including the leading diagonal of a matrix to be zero.
+
+Reduced Row Echelon Form; A matrix is in reduced row-echelon form (also called row-reduced echelon form) if it satisfies the following conditions: Each nonzero row is above each row of all zeroes, the leading entry in each nonzero row is a 1, and each column containing a leading 1 has zeroes everywhere else.
+
+Vector Space; A vector space is a collection of vectors which remains a vector space even after vector addition and scalar multiplication.
+
+Change of Basis; A change of basis transforms one basis to another. Done by multiplying the vectors by the change-of-basis matrix.
+
+Hilbert Spaces; A Hilbert Space is a vector space equipped with the concept of an inner product, or dot product, which allows length and angle to be measured. Also, it is complete, meaning that there are no 'holes' or 'missing points' in the space.
+
+Nullity; The nullity of a matrix A is the dimension of its null space.
+
+Scalar Fields; A scalar field is an assignment of a scalar value to every point in a space, giving us a mathematical description of a physical quantity that only has magnitude.
+
+Lagrange Multipliers; This method in linear algebra finds the local maxima and minima of a function subject to equality constraints.
+
+Dual Spaces; The dual space of a vector space is the vector space that consists of all linear functionals on the first space.
+
+Div, Grad, Curl; These are operations in vector calculus which interpret changes, direction and rotation in a vector field.
+
+Jordan Normal Form; A matrix is brought into this form to simplify algebraic operations, as it can be readily exponentiated or resolvent.
+
+Bilinear, Quadratic Forms; These represent a multivariate polynomial of degree two, helping in understanding various phenomena in physics and statistics.
+
+Coordinatization; The process of identifying a point in a vector space with an ordered set of real numbers.
+
+Affine transformations; They preserve lines and parallelism, and can represent any combination of stretching, shearing, reflection, rotation, and translation.
+
+Tensor Products; The tensor product of two vectors is a vector in a space that is the exterior product of the dimensions of the two vectors' spaces.
+
+Householder Transformation; It is a linear transformation that describes a reflection about a plane or hyperplane containing the origin.
+
+Pivoting Strategies; These are used while performing Gaussian elimination to prevent round-off errors and ensure good results.
+
+Incidence Matrices; It is a matrix that describes the relationship between two sets of objects, commonly used in graph theory and network analysis.
+
+Hessenberg Form; A matrix is in Hessenberg form if it is square and all entries below the first sub-diagonal are zero, useful in numerically solving eigenvalue problems.
+
+Permutation matrices; They are square binary matrices that have exactly one entry 1 in each row and each column and 0s elsewhere.
+
+Singularities; A singularity is a point where a function or a set is not defined or not well-behaved in some way.
+
+Positive definite matrices; These are matrices that yield a positive number when any non-zero vector is multiplied by the original matrix and then by the resulting vector.
+
+Linear regression; It is a linear approach to modeling the relationship between a dependent variable and one or more independent variables.
+
+Riemannian metric; It's a type of metric function which is defined on a manifold that helps define the geometry of the manifold in the small scale.
+
+Normal vectors; A normal vector, often simply called the "normal," to a surface is a vector that is perpendicular to it.
+
+Cayley-Hamilton theorem; This theorem states that every square matrix satisfies its own characteristic equation.
+
+Green's function; This function is particularly useful for solving differential equations with boundary conditions.
+
+Hermitian operators; Operators that are equal to their own conjugate transpose and have real eigenvalues and orthogonal eigenvectors.
+
+Rodrigues' rotation formula; It is an efficient way to rotate a vector in three-dimensional space.
+
+Orthogonal complement; It's the vector space of all vectors that are orthogonal to every vector in a given subspace.
+
+Pauli matrices; These are a set of three 2 x 2 matrices that are Hermitian and unitary, often used in quantum mechanics.
+
+Complete spaces; These spaces are vector spaces where the limit of every Cauchy sequence exists within the space.
+
+Stieltjes integral; It generalizes the Riemann integral to include functions with jumps.
+
+Spectral theorem; This theorem states that every linear operator acting on a finite-dimensional space has a basis of eigenvectors.
+
+Basis extension theorem; This theorem determines whether or not additional vectors can be included in an existing basis to form a new basis in a larger space.
+
+Singular spectrum; This is the eigenvalue spectrum of a singular (noninvertible) operator on a vector space.
+
+Horizontal and vertical vectors; Used in the study of manifolds in differential geometry, specifically in smooth (infinitely differentiable) manifolds.
+
+Galois field; This is a field that contains a finite number of elements and has applications in cryptography.
+
+Exterior product; This operation takes two vectors and returns a bivector, which geometrically represents the plane spanned by the two vectors and is scaled in proportion to the parallelogram defined by these vectors.
+
+Schur decomposition; This expresses a square matrix as conjugate to a triangular matrix (Schur form), revealing key properties of the matrix.
+
+Operator norm; This is a way to measure the 'size' or 'length' of an operator, analogous to the manner in which the magnitude of a vector can be given.
+
+Contracting an operator; This is the action of reducing a linear transformation (or operator) to a simpler form, which can reveal crucial properties of a system.
+
+Coordinatewise conjugation; This operation swaps all the entries in a vector or matrix with their complex conjugates.
+
+Linear system over a ring; This is an area of study where the coefficients of the linear system are elements of a ring, not necessarily a field.
+
+Lax-Milgram theorem; This theorem gives conditions for the existence of a unique solution to certain linear equations.
+
+Linear restrictive isomorphisms; These are bijective maps between two vector spaces that preserve addition, scalar multiplication, and the property that these operations satisfy the commutative, associative, distributive, identity and inverse laws.
+
+Navier-Stokes equations; These are nonlinear partial differential equations describing fluid flow — an active area of mathematical and scientific research.
+
+Maxwell's equations; These equations describe how electric charges and currents create electric and magnetic fields, and form the foundation of electromagnetic theory. 
+
+Tensors; Tensors are geometric objects that describe linear relations between geometric vectors, scalars, and more tensors.

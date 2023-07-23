@@ -1,0 +1,408 @@
+What is Reinforcement Learning (RL)?; A type of machine learning where an agent learns how to behave in an environment by performing actions and receiving rewards / penalties. The agent's goal is to learn a policy, a mapping of states to actions, that will maximize the cumulative reward over time.
+
+What is the Bellman Equation in RL?; It mathematically describes the relationship between the value of a state and the values of its successor states. The value of a state under a given policy is the expected long-term return with discount, as a function of its successor states. It's used in value iteration and policy iteration algorithms.
+
+What is Value Function in RL?; It provides the expected cumulative reward of starting in a given state and following a specific policy thereafter. Value functions are central to reinforcement learning and are used to determine the best policy.
+
+What is Policy in RL?; A policy is the strategy that defines the learning agent's way of behaving at a given time. Essentially, it's a mapping from perceived states of the environment to actions to be taken when in those states.
+
+What is Q Learning in RL?; It's an off-policy RL algorithm. It estimates the value of an action in particular states without requiring a model of the environment. The Q function represents the expected return of taking an action in a particular state following a particular policy.
+
+What is the Exploration vs Exploitation Dilemma in RL?; The agent has to choose between exploiting what it knows for immediate reward (exploitation), and choosing a potentially suboptimal action to gain more information (exploration). Balancing these is key for effective learning.
+
+What is Discount Factor in RL?; It's a measure of how much the agent cares about rewards in the distant future relative to those in the immediate future. Value close to 0 leads to "myopic", immediate reward focused behavior, while value close to 1 leads to long-term reward planning.
+
+Deep vs. shallow RL?; Deep RL uses artificial neural networks to solve complex RL problems with high-dimensional state spaces, unlike shallow RL which struggles with such problems.
+
+What is Deep Q Network (DQN)?; It's Q-learning but with a deep neural network that generalizes Q-values to states unseen during training. This technique vastly improves the capacity to handle high-dimensional state-space.
+
+What is Advantage Actor-Critic (A2C) in RL?; An algorithm that simultaneously learns a policy and a value function. It combines the benefits of policy gradient methods (Actor) with value function methods (Critic).
+
+What's Policy Gradient in RL?; A method to learn the policy directly using a parameterized function. It optimizes the policy in the direction of greater reward.
+
+What's Monte Carlo methods in RL?; A class of methods for learning value functions and optimal policies using raw experience. Here, an agent learns directly from episodes of experience without having to learn associated transitions.
+
+What's Temporal Difference Learning (TD Learning)?; A combination of Monte Carlo and Dynamic Programming ideas. An agent learns by comparing more present estimates of value with more future estimates.
+
+What's Double Q-Learning?; An algorithm that helps to reduce overoptimistic value estimates by taking the minimum value between two independent estimates.
+
+What's Asynchronous Advantage Actor Critic (A3C) in RL?; An algorithm that improves upon A2C by executing multiple worker agents in parallel on different environment instances.
+
+What's Deep Deterministic Policy Gradient (DDPG)?; An algorithm which combines the strengths of DQN and policy gradients. Used in environments with continuous action spaces.
+
+What's Proximal Policy Optimization (PPO)?; A type of policy gradient method. Highly effective in controlling the amount of policy change in each update.
+
+What is Inverse Reinforcement Learning?; A method which allows an agent to learn the reward function by observing the behavior of an expert.
+
+What's Soft Actor Critic (SAC)?; An off-policy maximum entropy algorithm with stability and sample efficiency. It achieves state-of-the-art performance in continuous control tasks.
+
+What is Rainbow DQN?; A DQN variant that incorporates multiple improvements to the basic DQN algorithm, such as prioritized replay and distributional RL.
+
+What's Hindsight Experience Replay (HER)?; A method to learn from failure by re-evaluating past experiences with the benefit of hindsight to make them seem successful.
+
+What's Dueling DQN?; It separates the state-value and action-advantage streams in the Q-function estimator, providing a more robust estimate for the Q-value function.
+
+What's TRPO (Trust Region Policy Optimization)?; An optimization method that ensures policy updates stay close to the current policy, preventing harmful changes.
+
+What's Distributional RL?; It models the distribution of returns instead of the expected return, providing a richer training signal.
+
+What's TD-λ in RL?; An algorithm that unifies TD Learning and Monte Carlo methods by enabling variable weighting between the two.
+
+What's Off-policy vs On-policy learning?; In Off-policy learning a learning policy and a behavior policy are different, while in On-policy learning, both policies are the same.
+
+What's SARSA in RL?; An on-policy TD Learning method that uses the current action (rather than the optimal action) in its updates.
+
+What's Prioritized Replay?; A method that changes the data sampling distribution by using a priority value that affects the likelihood of being picked.
+
+What's Model-Based RL?; RL methods that use a model of the environment for planning, leading to more sample efficient learning.
+
+What's R-max in RL?; An optimistic model-based algorithm. In unknown states, it assumes a maximum possible reward, leading to exploration.
+
+What's Function Approximation?; The techniques to handle very large state-action spaces by approximating the value functions with a suitable function with fewer parameters.
+
+What's DDPG (Deep Deterministic Policy Gradient)?; An off-policy algorithm and an adaptation of the standard DPG algorithm to work with high dimensional, continuous action spaces.
+
+What's Natural Policy Gradient?; An algorithm that offers better learning by using an adaptive step size and leveraging second-order information.
+
+What's the Return in RL?; The total reward that an agent can expect to gather over the future, potentially discounted over time.
+
+What's a Markov Decision Process (MDP)?; A framework used to describe an environment for RL where each state follows the Markov property.
+
+What's the Markov property?; given the current state, the future and past states are independent.
+
+What's Semi-Markov Decision Process (SMDP)?; It's an extension of MDPs that allows for variable duration in state transitions.
+
+What's Multi-Armed Bandits in RL?; A problem where an agent must choose between multiple actions (bandits) each with uncertain reward.
+
+What's Contextual Bandits in RL?; An extension of the multi-armed bandit where action choice depends on explicit external state (context).
+
+What's Partially Observable MDPs (POMDPs)?; A variant of MDP where the agent doesn't have complete visibility of the environmental state.
+
+What's Gridworld in RL?; A common simulation environment in RL where each grid corresponds to a state, and the agent must navigate to a terminal state while maximizing rewards.
+
+What's Object-Oriented MDPs (OO-MDPs)?; A variant of MDPs that provides a form of state abstraction, leading to easier learning and better generalization.
+
+What's Hierarchical RL?; A method of creating complex policies as a composition of simpler policies, making learning easier.
+
+What's Options Framework in RL?; A type of hierarchical RL where "options"(sub-goals) enable decomposition of more complex tasks.
+
+What's Curriculum Learning in RL?; Learning strategy where tasks are presented in increasing order of difficulty, enabling learning of more complex tasks.
+
+What's Transfer Learning in RL?; Technique of using a pre-trained policy on a related task as a starting point for learning a new task, improving speed and efficiency.
+
+What's Intrinsic Motivation in RL?; A strategy where an agent is motivated by internal rewards, like curiosity, which can help drive exploration.
+
+What's Imitation Learning in RL?; It is learning policies by mimicking expert demonstrations, often used as a good initialization for further RL.
+
+What’s Apprenticeship Learning in RL?; A form of imitation learning where agent learns to perform tasks by observing an expert's behavior and then imitating it.
+
+What's ε-greedy strategy in RL?; A simple method for balancing exploration and exploitation by choosing the best option with `1-ε` probability and random selection with `ε` probability.
+
+What's Boltzmann Exploration in RL?; A strategy for balancing exploration and exploitation using a softmax function for choosing actions.
+
+The Upper Confidence Bound (UCB) in RL?; A strategy to solve the exploration-exploitation dilemma where the choice is based on uncertainty in value estimates.
+
+What's Bootstrapping in RL?; Updating estimates based on other estimates, common in many RL algorithms like Q-learning, TD-Learning.
+
+What's Tabular Methods in RL?; When state and action spaces are small, the value functions/policies can be represented as tables.
+
+What's Multi-Agent RL?; When multiple learning agents interact with the environment independently, cooperation and competition dynamics emerge.
+
+What's Commonality of Value Functions in RL?; The observation that value functions for different policies share many features, leading to the concept of successor features.
+
+What's Reward Shaping in RL?; A strategy to make learning easier by modifying the rewards of the environment.
+
+What's Robust RL?; Designing RL algorithms that are robust to small changes or noise in the environment.
+
+What's Safe RL?; Ensuring that RL algorithms behave safely during learning and execution, minimizing harm to themselves and the environment.
+
+What's Autonomous Exploration in RL?; Ensuring an RL agent can explore its environment efficiently without any external guidance.
+
+What's Finite and Infinite Horizon in RL?; Finite horizon problems consider only a set number of future steps for calculating the return, while infinite horizon problems consider all future steps.
+
+What's Pseudo-rehearsal in RL?; A technique to prevent catastrophic forgetting in neural networks by rehearsing with artificial or retrieved samples.
+
+What's Catastrophic forgetting in RL?; The scenario in which an RL agent rapidly forgets previously learned information upon learning new information.
+
+What's Generalization in RL?; The ability of an RL agent to apply learned knowledge to new, unseen states or problems.
+
+What's Function Inversion in RL?; Technique used to solve control problems by inverting the model's function from a control signal to output.
+
+What's Reward Hypothesis in RL?; The idea that all goals can be framed as the maximization of the expected cumulative reward.
+
+What's Deterministic Policy in RL?; A policy where the action is fully determined by the current state.
+
+What's Stochastic Policy in RL?; A policy where actions are selected according to a probability distribution conditioned on the current state.
+
+What's Option-Critic Architecture in RL?; A method to discover and learn options in a hierarchical RL setting simultaneously.
+
+What's Importance Sampling in RL?; A statistical technique used to estimate expectations under one distribution given samples from another.
+
+What's Average Reward in RL?; A formulation of an RL problem where the goal of an agent is to maximize the average rather than the cumulative reward.
+
+What's Nexting in RL?; A concept where the agent predicts immediate future inputs, typically used in model-based RL.
+
+What's Q-value or Action-value in RL?; It is the expected return of taking an action in a particular state following a given policy.
+
+What's Optimal Action in RL?; An action that maximizes the expected reward from a state, taking into account future rewards as well as immediate ones.
+
+What's Actor-Critic design in RL?; A design in which the policy structure (Actor) and an approximate value function (Critic) both are maintained.
+
+What's Normalized Advantage Function (NAF) in RL?; It allows for a stable and sample-efficient learning in comparison to DQN for continuous control tasks.
+
+What's Softmax Policy in RL?; It makes a trade-off between exploration and exploitation by using a probabilistic approach for action selection, based on their expected return.
+
+What's One-step dynamics in RL?; It represents the changes in the environment one step into the future encapsulating transition dynamics and immediate rewards.
+
+What's Off-policy learning?; It's where the policy used to generate behavior, called the behavior policy, may be unrelated to the learned policy.
+
+What's State-value Function?; It is the expected return of being in a state and following a specific policy thereafter.
+
+What's Optimal policy?; It's a policy with the highest possible value function in all states or a policy that achieves the best balance of reward and cost.
+
+What's Reward Prediction?; It's a task of predicting the amount of reward given current and past states & actions, typically used in model-based RL.
+
+What's Batch Learning in RL?; A learning method that updates the model only after the agent has had a predetermined number of experiences or episodes in the environment.
+
+What's Online Learning in RL?; It's a type of "incremental" learning, where the agent updates its model based on newest experiences, not waiting for a batch to accumulate.
+
+What's State Abstraction in RL?; It's a method to reduce the complexity of an RL problem by clustering or merging similar states together.
+
+What's Trajectory in RL?; It's a sequence of states, actions, and rewards from the start to the end of an episode.
+
+What's Decaying ε-greedy strategy in RL?; It's a method in which the value of ε decreases over time, shifting the balance from exploration towards exploitation as the agent learns more about its environment.
+
+What's Model-free RL?; It's an approach where the agent learns the policy directly from interaction with the environment, not relying on a model of environmental dynamics.
+
+What's Goal-directed Learning in RL?; It's when an agent learns how to achieve specific goals by interacting with the environment.
+
+What's External and Internal Rewards in RL?; External rewards are given by the environment, while internal rewards are given by the agent itself (for example, based on a notion of "curiosity").
+
+What's Time Step in RL?; It's the discrete instant at which the agent observes the environment, takes an action, and receives a reward.
+
+What's Contingent Plan in RL?; It's a plan that prescribes an action for every possible sequence of events that might occur.
+
+What's Episodic Tasks in RL?; Tasks with a well-defined starting and ending point, each separate run is known as an "episode".
+
+What's Continuing tasks in RL?; Tasks that continue forever without a starting or ending point, the agent continues to interact with the environment indefinitely.
+
+What's In-place Updates in RL?; Instead of using a separate copy of the value function for updates, In-place updates modify the function directly.
+
+What's Synchronous Updates in RL?; Here all states are updated once using the prior version of the value function, maintains a separate copy for updates.
+
+What's Primitive Actions in RL?; The lowest level actions that an agent can take in an environment.
+
+What's Macro Actions in RL?; Sequences of primitive actions that can be taken as a single action entity.
+
+What's State Transition Matrix in RL?; A matrix that shows the probability of transitioning from one state to another in a single time step.
+
+What's Terminal State in RL?; The state that marks the end of an episode, and brings the agent to the initial state when playing episodic tasks.
+
+What are some examples of RL applications?; RL has been used to teach computers to control robots in simulation and in the real world, create breakthrough AI strategies for games like Go and Dota, train computers to play Atari games, and train simulated robots to follow human instructions.
+
+What is the agent-environment interaction loop in RL?; The agent perceives a state observation from the environment, decides on an action to take, and interacts with the environment. The environment can change due to the agent's actions or on its own.
+
+What is the goal of the agent in RL?; The agent's goal is to maximize its cumulative reward, also known as the return. It learns behaviors that lead to higher reward outcomes.
+
+What are states and observations in RL?; States provide a complete description of the state of the world, while observations are partial descriptions that may omit some information. They are often represented using real-valued vectors or matrices.
+
+What are the two types of action spaces in RL?; Action spaces can be discrete, where only a finite number of moves are available, or continuous, where actions are represented by real-valued vectors.
+
+What is a policy in RL?; A policy is a rule used by an agent to decide what actions to take. It can be deterministic, where actions are chosen with certainty, or stochastic, where actions are chosen based on probability distributions.
+
+What are value functions in RL?; Value functions estimate the expected return starting from a particular state or state-action pair. They provide a measure of how good a state or action is.
+
+What are Bellman equations in RL?; Bellman equations are self-consistency equations that describe the relationships between different value functions. They provide a framework for understanding the dynamics and convergence properties of RL algorithms.
+
+What is the connection between optimal action-value function and the optimal policy?; The optimal action-value function, Q^*(s,a), gives the expected return for starting in state s, taking action a, and then acting optimally thereafter. The optimal policy selects actions that maximize Q^*(s,a) in each state.
+
+What is the advantage function in RL?; The advantage function compares the value of a specific action to the average value of all actions in a given state. It provides information on the relative advantage of taking a particular action.
+
+Policy Gradient Theory; Policy gradient theories involve calculations to maximize the expected return or performance of a policy using gradient-based methods. The policy gradient is given as an expected value which can be estimated using a sample mean of trajectories collected using the current policy.
+
+Policy Gradient Implementation; Policy gradient agorithms are implemented in practice by defining a policy network, running epochs of training and calculating loss functions. The loss function includes the log probabilities of actions and the weights associated with each state-action pair.
+
+Expected Grad-Log-Prob (EGLP) Lemma; An important lemma in policy gradients, the EGLP states that the expected gradient of the log probability of a parameterized probability distribution is equal to zero.
+
+Reward-to-Go Policy Gradient; The reward-to-go policy gradient refines the policy gradient expression by reinforcing actions based on rewards obtained after they are taken. It emphasizes the significance of the sequence of future rewards in policy optimization.
+
+Baselines in Policy Gradients; Baselines are functions that only depend on the state and can be added to the policy gradient expression. The on-policy value function is a common choice for a baseline and helps to reduce the variance in the policy gradient estimate.
+
+On-Policy Action-Value Function; The on-policy action value function gives the expected return if a particular action is taken in a particular state while following the policy. It can be used as weights in the policy gradient expression.
+
+Advantage Function; The advantage function is the difference between the action-value function and the value function of a policy, which quantifies how much better or worse an action is compared to other actions.
+
+Generalized Advantage Estimation (GAE); GAE is a method used to approximate the advantage function in policy optimization algorithms. It provides a way to adjust between bias and variance in value estimates and is widely employed in popular policy optimization algorithms.
+
+Understanding ε in Policy Optimization Algorithms; In policy optimization algorithms like \pi_{\theta}, ε represents the parameter space of the policy. These parameters are adjusted iteratively in order to maximize expected return.
+
+Applying the Log Derivative Trick in Deriving the Policy Gradient; The log derivative trick is commonly used in deriving the policy gradient. It involves deriving the log of a function and is explicitly done in policy optimization algorithms to get the gradient of the log likelihood of the policy with respect to the policy parameters. 
+
+Role of Neural Networks in Policy Optimization; In policy optimization, neural networks often parameterize the policy and the baseline (value function). They help compute the policy and value estimates for different states and actions, which are then used in the gradient update rule.
+
+Importance of the Reward-to-Go function; The reward-to-go function calculates the summation of future rewards obtained from a specific point in a trajectory until its end. It is crucial in the Reward-to-Go policy gradient which reinforces actions based on the future rewards they lead to. 
+
+Effect of Reinforcing Past Rewards in Policy Optimization; Reinforcing actions based on past rewards often leads to a higher variance in the policy gradient estimate. It is therefore preferred to reinforce actions based on the future rewards they lead to in order to reduce variance and improve learning stability.
+
+Significance of Action-value Function as Weight in Policy Gradient; The on-policy action-value function can be an effective choice as the weight in the policy gradient expression. It gives an estimate of the anticipated return if a certain action is taken in a given state while abiding by the policy.
+
+Choosing Baselines in Policy Optimization; The choice of baselines in policy optimization can significantly influence the efficiency of learning. Though the on-policy value function is commonly used, other functions that depend only on the state can also be used. The right baseline helps to reduce the variance in the policy gradient estimate without introducing bias.
+
+Learning Value Network in Policy Optimization; Learning the value network often involves minimizing a mean-squared-error objective to match estimated values with the returns from the trajectories. The value network is updated concurrently with the policy to ensure it represents the most recent policy.
+
+Underlying Concept of Policy Gradients; The fundamental concept of policy gradients is to increase the probabilities of actions leading to a higher return, and decrease the probabilities of actions leading to a lower return, until the optimal policy is reached.
+
+Function of Vanilla Policy Gradient (VPG); VPG is an on-policy algorithm applicable for environments with either discrete or continuous action spaces. It can perform parallelization with MPI, and explores by sampling actions as per the updated version of its stochastic policy.
+
+Gradient of Expected Return; In Policy Gradients, let \pi_{\theta} be a policy with parameters, \theta, and J(\pi_{\theta}) refer to the expected finite-horizon undiscounted return of the policy. The gradient of J(\pi_{\theta}) can be defined using the advantage function for the current policy, and is based on trajectories \tau.
+
+Stochastic Gradient Ascent on Policy Performance; Policy gradient algorithms update \theta via stochastic gradient ascent on policy performance -  \theta_{k+1} = \theta_k + \alpha \nabla_{\theta} J(\pi_{\theta_k}), where α is a tuned learning rate.
+
+Advantage Function Estimates; Policy gradient implementations typically compute advantage function estimates according to the infinite-horizon discounted return, yet otherwise leverage the finite-horizon undiscounted policy gradient calculation.
+
+Balancing Exploration and Exploitation; VPG trains a stochastic policy in an on-policy manner, where exploration occurs by sampling actions per the updated version of its stochastic policy. The degree of randomness in action selection relies on initial conditions and the training process. Over training, the policy becomes less random as it is encouraged to exploit rewards it has discovered, possibly resulting in getting stuck in local optima.
+
+What are the key characteristics of Trust Region Policy Optimization (TRPO)?; TRPO is a policy optimization method that seeks to maximize policy performance by taking the largest possible steps, while ensuring that new and old policies remain closely associated through the incorporation of a KL-divergence constraint.
+
+How do the optimization approaches of TRPO and traditional Policy Gradient differ?; While traditional policy gradient algorithms maintain closeness of policies in parameter space which can lead to drastic performance changes, TRPO introduces a trust region defined by KL-divergence to avoid such drastic, potentially detrimental changes, allowing for faster and more robust performance improvements.
+
+What is the role of the Trust Region constraint in TRPO?; The trust region constraint, quantified by the KL-divergence between new and old policies, ensures that the policy updates in TRPO do not result in drastic changes, potentially causing a collapse in policy performance.
+
+What kind of environments can TRPO be used in and what are its capabilities in terms of parallelization?; TRPO operates on-policy and can function in environments with both discrete and continuous action spaces. It also supports parallelism through the use of Message Passing Interface (MPI).
+
+What is the mathematical formulation of a theoretical TRPO update?; The theoretical update in TRPO seeks to maximize the surrogate advantage (the performance of a new policy relative to the old policy using old policy data), subject to a constraint that the average KL-divergence between new and old policies should not exceed a specified limit.
+
+What is the significance of the surrogate advantage and mean KL-divergence in TRPO updates?; The surrogate advantage measures the relative improvement of a new policy over the old one with respect to the old policy data, while the average KL-divergence acts as a safeguard to restrict drastic changes during optimization and prevent the new policy from diverging too much from the old one.
+
+What typical approximations are applied to optimize TRPO constraints?; To facilitate TRPO optimization, approximations around the current parameter set such as the Taylor expansion of the objective (surrogate advantage) and constraint (KL-divergence) are typically applied. 
+
+What is the relationship between the surrogate advantage gradient and the policy gradient?; The gradient of the surrogate advantage function with respect to the policy parameters is equivalent to the policy gradient. This equivalence enables the policy gradient to be calculated more efficiently.
+
+What is the role of the Conjugate Gradient Algorithm in TRPO?; Due to the computational expense of inverting the full Hessian matrix during optimization, TRPO instead employs the Conjugate Gradient algorithm to solve for the descent direction, which only requires the computation of the Hessian-vector product and not the full Hessian matrix.
+
+How does TRPO handle the balance between exploration and exploitation in reinforcement learning?; TRPO formulates policies in a stochastic manner, thus performing exploration by sampling actions according to the most recent policy. However, it tends to become slightly deterministic over time by exploiting known rewards. This potentially can lead to local optima, underscoring the challenge of balancing exploration and exploitation.
+
+What is the motivation and purpose of Proximal Policy Optimization (PPO)?; PPO is designed to answer the similar question as TRPO - how can we maximize policy improvement using current data, without taking steps so large that they cause performance to deteriorate? The PPO methods are simpler in implementation than TRPO yet retain its performance by ensuring new policies stay close to old ones.
+
+What distinguishes PPO-Penalty and PPO-Clip, the two variants of PPO?; While PPO-Penalty resolves a KL-constrained update emulating TRPO by penalizing the KL-divergence in the objective function, PPO-Clip does not introduce a KL term in the objective nor a constraint, but rather applies specialized clipping in the objective function to keep the new policy close to the old.
+
+What is the PPO-Clip algorithm's policy update process?; PPO-Clip updates policies by maximizing an objective function over several SGD steps. The function contains a complex expression that minimizes the ratio of the new policy to the old policy’s probabilities (capped between [1-ε, 1+ε]) and the advantage of the old policy.
+
+What is the mathematical simplification of the PPO-Clip's objective function and how does it make it easier to understand?; The simplified variant of PPO-Clip's objective function provides intuition about PPO's workings. It separates the cases of positive and negative advantage for state-action pairs. Each case includes a floor/ceiling effect: once the ratio of the new to old policy goes beyond or falls short of [1-ε, 1+ε], the objective function ceases to benefit.
+
+How does Advantage affect the PPO-Clip's objective function in either case, positive or negative?; Advantages being positive or negative elucidates the clip effect. In the positive case, making an action more likely will increase the objective function until the ratio of the policy’s probabilities breaches (1+ε) , at which point it's capped. In the negative case, the action becomes less likely regenerating the objective function until the ratio breaches (1-ε), after which it's also limited, ensuring the new policy doesn't diverge too much.
+
+How does the PPO algorithm handle the policy updates compared to standard policy gradient and TRPO with regard to risk for performance collapse?; PPO relies on early stopping for policy updates based on the mean KL-divergence exceeding a specific threshold, thereby mitigating the risk of making too large of a policy update which can lead to performance collapse - a risk identified in standard policy gradient and TRPO.
+
+What strategy is PPO using in terms of exploration versus exploitation?; PPO utilizes an on-policy approach, it explores by sampling actions through its stochastic policy. Over the course of training the randomness in the policy typically decreases emphasizing more on exploiting the known rewards, which can potentially lead the policy towards local optima.
+
+What is the main goal behind the Proximal Policy Optimization and how does it differ from the traditional Policy Gradient?; PPO seeks to improve policy using current data but ensures the steps towards improvement are not so big that they cause a decline in performance. Unlike the traditional Policy Gradient, which can take big steps leading to drastic changes, PPO ensures new policies remain close to old ones making it simpler and more efficient.
+
+What are the two primary variants of PPO?; PPO-Penalty and PPO-Clip are the two variants of Proximal Policy Optimization. PPO-Penalty penalizes the KL-divergence in the objective function to approximate a KL-constrained update. PPO-Clip, on the other hand, utilizes specialized clipping in the objective function to prevent the new policy from diverging drastically from the old one.
+
+What is the purpose of the specialized clipping in PPO-Clip?; The specialized clipping in the objective function of PPO-Clip removes incentives for the new policy to diverge too much from the old one. This approach replaces the constraints or penalization of KL-divergence used in other methods like TRPO or PPO-Penalty.
+
+How does PPO-Clip manage to execute policy updates?; PPO-Clip performs policy updates by maximizing an objective function over several Stochastic Gradient Descent steps. The objective function contains a clipping mechanism that constrains the ratio between the new and old policy’s probabilities and the old policy’s advantage function.
+
+What is the impact of the Advantage being either positive or negative in PPO-Clip’s objective function?; If the Advantage is positive, there is an incentive to increase the likelihood of the action, that is if the ratio of the new to old policy is within (1+ε). Beyond that, the function has a ceiling and will stop benefiting from it. If the Advantage is negative, the function will increase if the action becomes less likely, that is if the ratio of the new to old policy is greater than (1-ε). Beyond that, the function has a floor and will again, stop benefiting from it.
+
+How does the PPO algorithm handle policy updates to avoid performance collapse?; In PPO, if the average KL-divergence between new and old policies exceeds a certain threshold, the gradient steps are halted. This strategy does not allow the algorithm to make drastic changes in policy parameters, reducing the risk of performance collapse.
+
+What is the exploration vs. exploitation trade-off in the PPO algorithm?; PPO uses an on-policy method for exploration by drawing actions based on its recent stochastic policy. As the update rule tends to maximize known rewards, the policy progressively becomes less random, that is, it exploits, which can sometimes lead to local optima.
+
+How does DDPG handle policy and Q-function learning concurrently?; Deep Deterministic Policy Gradient (DDPG) uses off-policy data and the Bellman equation to learn the Q-function and the policy simultaneously. It alternates between approximating the optimal action-value function Q^*(s,a) and the optimal policy a^*(s), tailored specifically for continuous environments.
+
+How does DDPG differ from traditional Q-learning when the action space is continuous?; When the action space is continuous, optimizing \max_a Q^*(s,a) becomes computationally demanding in traditional Q-learning. DDPG overcomes this by approximating the function Q^*(s,a) to be differentiable with respect to the action. Instead of computing the maximum over actions, DDPG evaluates \max_a Q(s,a) by taking the action given by the current policy, a = \mu(s).
+
+What are key characteristics of DDPG?; DDPG is an off-policy algorithm that works exclusively in continuous action spaces. It can be seen as an extension of deep Q-learning tailored to continuous action spaces.
+
+What are the two primary techniques employed in DDPG to minimize MSBE loss function?; DDPG makes use of a Replay Buffer, which is a collection of previous experiences to ensure a wide range of experiences for stable behavior. The other technique is the use of Target Networks, where a second network is used, which closely but regrettably updates with the main network to ensure MSBE minimization stability.
+
+How does DDPG calculate the maximum over actions in the target for continuous action spaces?; DDPG uses a target policy network to compute the action which approximately maximizes the Q-function. Just like the target Q-function, the target policy network is also found by polyak averaging the policy parameters over the course of learning.
+
+How does DDPG handle policy learning?; DDPG learns a deterministic policy which gives the action that maximizes the Q-function. The Q-function is assumed to be differentiable with respect to action, allowing for gradient ascent to be performed to update the policy parameters.
+
+How does DDPG manage exploration versus exploitation trade-off?; DDPG trains a deterministic policy in an off-policy way and uses added noise to the actions at training time to promote exploration. At test time, to see the policy's exploitation of learned actions, the noise is not added to the actions. Some implementations also use a uniform random policy for the first few steps of training for better exploration.
+
+What does the term 'off-policy' signify in DDPG?; 'Off-policy' in DDPG suggests that the algorithm uses a replay buffer, containing old experiences with possibly outdated policies, to train the current policy. This can occur since the optimal Q-function should satisfy the Bellman equation for all possible transitions, making all experienced transitions suitable for Q-function approximation.
+
+Why does DDPG utilize Target Networks?; In DDPG, Target Networks are used to stabilize the minimization of the mean-squared Bellman error loss function. The target is the expected return but critically depends on the same parameters being trained. Target networks, which are delayed versions of the main network, are used to avoid instability in parameters.
+
+What is the significance of the Replay Buffer in DDPG?; A Replay Buffer in DDPG is a collection of previous experiences that ensure a wide range of observations are available for training. This diversity leads to a stable behavior of the algorithm. The buffer should be large enough to contain a range of experiences and some tuning may be necessary for optimal performance.
+
+How does DDPG handle continuous action spaces?; DDPG is specifically designed for continuous action spaces. It assumes that the Q-function is differentiable with respect to action. This allows setting up an efficient, gradient-based learning rule for a deterministic policy that maximizes the Q-function, circumventing the need for calculating the maximum over actions every time an action is to be taken.
+
+How does DDPG ensure effective exploration?; To promote exploration in DDPG, noise is added to the actions during training. This could be thought of injecting stochasticity into the policy, enabling it to try out different actions. Some implementations also use a completely random policy for an initial number of steps to encourage wide exploration.
+
+Why does DDPG employ two separate networks for Q-function and the policy?; DDPG alternates between learning the Q-function and the policy. Each requires a different objective function and separate upgradation rules - Q-function is updated by minimizing Bellman error using experiences from a replay buffer, while the policy is updated through gradient ascent on expected returns. Thus, using two separate networks allows for efficient learning and optimization.
+
+How does DDPG perform at test time?; At test time, DDPG checks the effectiveness of its policy in exploiting what was learnt during the training phase. No noise is added to the actions and only the deterministic policy learned through training guides actions at this stage.
+
+In what situations is DDPG particularly useful?; DDPG is particularly useful in environments with continuous action spaces where traditional Q-learning does not scale well. Its combination of off-policy learning, replay buffer, target networks, and gradient-based policy updates make it an effective choice for such complex settings.
+
+What is Twin Delayed DDPG (TD3) and what issues does it address?; The TD3 is an improved version of DDPG, designed to handle the common failure of DDPG where the learned Q-function overestimates Q-values, leading to a broken policy. TD3 introduces three major modifications: Clipped Double-Q Learning, Delayed Policy Updates, and Target Policy Smoothing.
+
+What is Clipped Double-Q Learning in TD3?; In Clipped Double-Q Learning, TD3 learns two Q-functions instead of one and uses the smaller Q-value to form the targets in the Bellman error loss functions. This approach helps mitigate the issue of overestimating Q-values which is common in DDPG.
+
+What role does "Delayed" Policy update play in TD3?; The "Delayed" Policy Updates trick involves updating the policy less frequently than the Q-function. This approach helps to dampen the volatility that arises in DDPG due to policy updates which change the target.
+
+What is the importance of the Target Policy Smoothing trick?; The Target Policy Smoothing trick adds noise to the target action, which makes it harder for the policy to exploit Q-function errors by smoothing out Q-values along changes in action. This trick essentially serves as a regularizer for the algorithm, preventing the Q-function approximator from developing incorrect sharp peaks for some actions.
+
+What are the key features of TD3?; TD3 is an off-policy algorithm and is suitable for environments with continuous action spaces. However, the Spinning Up implementation of TD3 does not support parallelization.
+
+What is the purpose of target policy smoothing in TD3?; Target policy smoothing is a modification to the actions used to form the Q-learning target. It adds clipped noise on each dimension of the action based on the target policy. This modification addresses a failure in DDPG where the Q-function approximator develops an incorrect sharp peak for some actions.
+
+How does TD3 differ from the standard DDPG method in estimating Q-values?; Unlike DDPG where a single Q-function is learned, TD3 concurrently learns two Q-functions. It uses the smaller Q-value for the target function in Bellman error loss functions, helping prevent overestimation in the Q-function.
+
+What is the role of the policy in the TD3 algorithm?; The policy in TD3 is learned by maximizing one of the Q-functions. While this is similar to DDPG, TD3 updates the policy less frequently than the Q-functions, adding stability to the policy training process.
+
+How does TD3 handle the Exploration vs Exploitation dilemma?; TD3 trains a deterministic policy in an off-policy way and adds noise to the policy's actions during training to facilitate exploration. At the beginning of training, actions are sampled from a uniform random distribution over valid actions to improve exploration. During testing, to see how well the policy exploits the learned knowledge, no noise is added to the actions.
+
+What is the significance of TD3's deterministic policy and how does it aid exploration?; TD3 trains a deterministic policy off-policy. To facilitate better exploration, it adds noise to their actions at training time. This is typically an uncorrelated mean-zero Gaussian noise, which encourages the policy to try a wide variety of actions and find useful learning signals.
+
+What is the strategy employed by TD3 during the initial stages of exploration?; TD3 uses a trick at the start of training where the agent takes actions randomly sampled from a uniform distribution over valid actions. This is done for a fixed number of steps at the beginning to help the agent transiently increase exploratory behavior and obtain a diverse set of initial experiences.
+
+What is the effect of the policy exploitation during TD3's evaluation?; During the evaluation or testing phase in TD3, noise is not added to the agent's actions. This helps assess how well the policy exploits what it has learned without the variability added by exploratory noise.
+
+What is the purpose of learning two Q-functions in TD3?; In TD3, learning two Q-functions and using the smaller of the two Q-values to form the targets in the Bellman error loss functions helps to prevent Q-value overestimations, which is a common issue in DDPG leading to policy degradation.
+
+Can TD3 handle environments with discrete action spaces?; No, TD3 is specifically designed to handle environments with continuous action spaces. It is not suitable for environments with discrete action spaces.
+
+How does TD3 update the target in the loss functions?; In TD3, the target for both Q-functions is calculated using whichever of the two Q-functions gives a smaller target value. Then, both Q-functions are updated by regressing to this target.
+
+How do frequency of policy updates in TD3 differ from those in DDPG?; In TD3, the policy is updated less frequently than the Q-functions. This modification is aimed at reducing the volatility that arises in DDPG because of how a policy update changes the target.
+
+What is the connection between target policy smoothing and TD3's improved performance over DDPG?; Target policy smoothing in TD3 acts as a regularizer that prevents the Q-function approximator from developing incorrect sharp peaks for certain actions. This issue in DDPG can cause the policy to quickly exploit that peak, leading to brittle or incorrect behavior. By smoothing out the Q-function over similar actions, target policy smoothing prevents such failures, enhancing TD3's performance over standard DDPG.
+
+The role of entropy in Soft Actor-Critic (SAC); In SAC, the policy optimizes a trade-off between expected return and entropy, where entropy is a measure of randomness in the policy. Hence, increasing entropy results in more exploration, accelerating learning, and possibly preventing policy's premature convergence to a bad local optimum.
+
+The difference between the versions of SAC; There are two variants of SAC - one that uses fixed entropy regularization coefficient and another that varies this coefficient over the course of training to enforce entropy constraint. The entropy-constrained variant tends to be the preferred choice for practitioners.
+
+Contrasting TD3 and SAC; Both SAC and TD3 learn Q-functions with mean squared Bellman error (MSBE) minimization, use the clipped double-Q trick and make use of target Q-networks, obtained by polyak averaging the Q-network parameters over training. However, unlike TD3, SAC includes an entropy regularization term in its target, uses the current policy rather than a target policy to generate next-state actions, and trains a stochastic policy instead of a deterministic one.
+
+The MSBE loss function for Q-functions in SAC; The loss function for Q-functions in SAC regresses to a single shared target which includes a term from SAC's use of entropy regularization and uses actions from the current policy.
+
+Learning a policy in SAC; SAC learns a policy that is optimized to maximize the expected future return and expected future entropy. The reparameterization trick is used, in which a sample from the policy is drawn by computing a deterministic function of state, policy parameters, and independent noise.
+
+Specificities of the SAC policy structure; The SAC policy uses a squashing function (tanh) to ensure that actions are within a finite range and changes the action distribution. Also, it uses a different standard deviation parameterization where the log std devs are represented as outputs from the neural network rather than being state-independent.
+
+The policy loss function in SAC; The policy loss function in SAC is almost the same as the DDPG and TD3 policy optimization except for the min-double-Q trick, the stochasticity, and the entropy term.
+
+Exploration vs. Exploitation in SAC; SAC inherently balances exploration and exploitation through its entropy regularization coefficient. Higher values of this coefficient correspond to more exploration and lower to more exploitation. However, the optimal coefficient may differ across environments and hence could require careful tuning.
+
+Concept of Soft Actor-Critic (SAC); SAC is a type of reinforcement learning algorithm that optimizes a stochastic policy in an off-policy manner, bridging the gap between stochastic policy optimization and DDPG-style approaches. SAC features entropy regularization which prevents premature convergence to a bad local optimum.
+
+Understanding The Role of Entropy Regularization in SAC; In SAC, entropy regularization is used to influence the exploration-exploitation trade-off. The entropy of a policy indicates the level of randomness, so high entropy policies encourage exploration over exploitation, which can prevent the policy from converging early to a bad local optimum and may accelerate learning in the long run.
+
+SAC and Continuous Action Spaces; The SAC algorithm implemented in the Spinning Up library can only be used for environments with continuous action spaces. An alternate version of SAC can handle discrete action spaces by slightly changing the policy update rule.
+
+SAC as an Off-Policy Algorithm; SAC is an off-policy algorithm which means that it learns from action taken by a policy that is different from the one it's currently optimizing. This trait allows it to learn from a wide variety of past experiences to improve its policy.
+
+Learning Q-functions in SAC; SAC concurrently learns a policy and two Q-functions similarly to TD3 but with some differences. SAC includes an entropy regularization term in the Q-function targets, uses the current policy for next-state actions, and for policy smoothing, SAC's intrinsic stochasticity is sufficient--there is no need for explicit target policy smoothing like in TD3.
+
+Entropy-Regularized Reinforcement Learning; In entropy-regularized reinforcement learning, the agent is given a bonus reward at each time step proportional to the entropy of the policy at that time step. This changes the structure of the value function equations and results in bringing the exploration-exploitation trade-off into the equation.
+
+Differences between DDPG, TD3 and SAC; Both SAC and TD3 learn Q-functions using Mean Squared Bellman Erro (MSBE) minimization. SAC also uses a minimum of two Q-values for learning the policy. SAC incorporates entropy regularization into its target, promoting on-policy exploration, in contrast to DDPG and TD3.
+
+Differences in Policy Structures; Policies used in SAC differ from the ones used in VPG, TRPO, and PPO in terms of the squashing function and how standard deviations are parameterized. The squashing function in SAC keeps actions within a finite range. Plus, the log standard deviations in SAC depend on state in a complex way and are represented as outputs from the neural network.
+

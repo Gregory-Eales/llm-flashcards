@@ -1,0 +1,175 @@
+Descriptive Statistics; This method summarizes raw data and presents it in a form that can be easily understood. Subtopics include - Measures of Central Tendency (mean, median & mode), Measures of Variability (variance, standard deviation, range & interquartile range).
+
+Probability; It's the study of uncertainty and measures the chance of an outcome occurring. Subtopics include - Events, Sample Space, Probability Theory and Probability Distribution Functions. Probability uses formulas P(A) = Number of favorable outcomes / Total outcomes.
+
+Inferential Statistics; This concept is used to make inferences about a population based on a sample. Subtopics include - Point-Estimate, Confidence Interval, Hypothesis Testing. 
+
+Regression Analysis; It's a statistical method for modeling the relationship between a dependent variable and one or more independent variables. Subtopics: Simple Linear Regression, Multiple Regression. Formula: Y = a + bX where 'Y' is dependent variable, 'X' is independent variable, 'b' is slope of the line and 'a' is y-intercept.
+
+Correlation; It measures the strength and direction of the relationship between two variables. Pearson's correlation coefficient formula: r = Σ((xi - meanX)(yi - meanY))/n-1.
+
+Binomial Distribution; A probability distribution of the number of successes in a sequence of independent yes/no experiments. Formula: P(X=x) = nCx * p^x * (1-p)^(n-x) 
+
+Poisson Distribution; It provides the probability of a given number of events happening in a fixed interval of time. Formula: P(X=x) = λ^x* e^-λ/x!
+
+Normal Distribution; It shows data symmetrically distributed around a mean. All Mean, Mode and Median are equal in this distribution. Standard Normal Distribution follows Z = (X - μ) / σ.
+
+Hypothesis Testing; Used to validate the claim about the population using sample data. Subtopics -Null Hypothesis (H0), Alternative Hypothesis (H1), Critical Value method, Z-Test, T-Test, Chi-Square Test.
+
+ANOVA (Analysis of Variance); It's used to compare the means of more than two groups. Subtopics include - One-way ANOVA, Two-way ANOVA.
+
+Sampling Methods; It's a process of selecting a subset of individuals from a statistical population. Subtopics - Simple Random Sampling, Stratified Sampling, Cluster Sampling, Systematic Sampling.
+
+Time Series Analysis; It's a branch of statistics that analyze data that is collected over a period of time to identify trends. Subtopics - Moving Average, Exponential Smoothing, Autoregressive Model.
+
+Bayesian Statistics; It allows for updating the probability for a hypothesis as more evidence or information becomes available using Bayes' theorem.
+
+Non-parametric Statistics; Methods used when the data doesn’t fit the normal distribution. Subtopics: Wilcoxon Signed Rank Test, Kruskal-Wallis Test, Friedman Test.
+
+Experimental Design; It's a plan for assigning experimental units to treatment levels and the statistical analysis of the resulting data. Subtopics include - Completely Randomized Design, Randomized Block Design, Latin Square Design.
+
+Factor Analysis; A statistical method used to describe variability among observed variables in terms of fewer unobserved variables called factors.
+
+Chi-Square Test; It tests the independence of two categorical variables. The formula for Chi-square test is X^2 = Σ (O-E)^2/E where 'O' stands for observed frequency, 'E' stands for expected frequency.
+
+Survival Analysis; It's used to analyze the time until the occurrence of an event. Methods include Kaplan-Meier Estimation and Cox Proportional Hazards Regression model.
+
+Central Limit Theorem; It's a fundamental theorem in probability theory and statistics which states that the distribution of sample means will approach normal distribution as the sample size gets larger.
+
+Multivariate Analysis; This is the examination of more than two variables to understand the effect of variables on the responses. Subtopics include - Multiple Regression, Factor analysis, Canonical correlation, Discriminant analysis.
+
+Categorical Data Analysis; This involves the statistical methods that are used to analyse data that is qualitative in nature. Subtopics - chi-square test, logistic regression, correspondence analysis.
+
+Mann-Whitney U Test (Wilcoxon Rank-sum Test); A non-parametric test used to compare two sample groups to assess whether their averages differ significantly.
+
+Principal Component Analysis; This is a procedure that transforms n correlated variables into n uncorrelated variables. These new uncorrelated variables are called principal components.
+
+Confounding Variable; A type of extraneous variable that changes the way you examine your experimental results. If not controlled, they can introduce errors and inaccuracies.
+
+Data Visualization; The process of representing data or information visually through graphs, charts, or other visual aids to help audiences understand complex data.
+
+Levene’s Test; A statistical procedure for assessing the equality of variances in different sample groups. 
+
+Kruskal-Wallis Test; A nonparametric method for comparing two or more independent samples of equal or different sample sizes. 
+
+Box Plot; A way to show groups of numerical data through their quartiles. Also called a box-and-whisker plot and box-and-whisker diagram. 
+
+Bootstrap; A powerful statistical method for estimating a quantity from a data sample. 
+
+Density Plot; A tool that shows the distribution of a numeric variable. 
+
+Spearman's Rank Correlation; Non-parametric measure of rank correlation (statistical dependence between the rankings of two variables). 
+
+Standard Error; It measures the amount of variability in the sample mean over all possible samples drawn from the population.
+
+Variance Inflation Factor (VIF); An index which gives how much the variance of the estimated regression coefficient is increased because of multicollinearity.
+
+Kolmogorov-Smirnov Test; A type of goodness of fit test, often used to compare a sample with a reference probability distribution.
+
+Cook’s Distance; A measure that combines the information of leverage and residual of the observations. 
+
+Random Variables; Variables whose possible values result from a random phenomenon. 
+
+Power Analysis; An important aspect of experimental design, which lets us determine the sample size required to detect an effect of a given size.
+
+Non-Linear Regression; A method to model a non-linear relationship between the dependent variable and a set of independent variables. 
+
+Markov Chains; A stochastic process which undergoes transitions from one state to another on a state space in a chain-like manner in which the probability of moving to the next state depends only on the current state and not on how it arrived in the current state. 
+
+Monte Carlo Simulations; A statistical technique that involves a large number of numerical experiments for the purpose of obtaining a distribution of an unknown probabilistic entity.
+  
+Outlier Detection; Identifying the most unusual instances or observations in the dataset. These are extreme values that diverge from other observations on data, they may indicate a variability in a measurement, experimental errors or a novelty. 
+
+Significance Level and P-Value; The significance level (often denoted as α) is how often we're willing to be wrong in our rejection of the null hypothesis. The P-value is the probability that the results of your test occurred at random. If the P-value is less than your significance level, you can reject the null hypothesis.
+
+Covariance and Correlation; Covariance is a measure of the joint variability of two random variables. Correlation is a normalized measure of the linear relationship between two variables. 
+
+Logistic Regression; A statistical model that uses a logistic function to model a binary dependent variable, often used for predicting the probability of an event.
+
+Weibull Distribution; A continuous probability distribution used in reliability and life data analysis.
+
+Maximum Likelihood Estimation (MLE); A method to estimate the parameters of a statistical model given observations, the goal is to find the parameter values that maximize the likelihood function given data.
+
+Cramer's V; A measure of association between two nominal variables, giving a value between 0 and +1 (inclusive). 
+
+Power and Sample Size; Power is the probability that a statistical test will detect a difference when one exists. Sample size impacts the power of a statistical test.
+
+Quantile-Quantile Plot (Q-Q Plot); A probabilistic plot for comparing two probability distributions by plotting their quantiles against each other.
+
+Least Squares Estimation; A statistical method used to determine the best-coefficients that minimize the sum of squares between the real and estimated data.
+
+Mixed Models; A type of statistical model which contains both fixed and random effects. These are especially used when the data is surveyed or clustered.
+
+Censoring and truncation; Censoring is a type of problem in which the value of measurement isn't fully known. It's common in survival analysis. Truncation is a type of situation where an observation is not considered if it doesn't meet certain criteria.
+
+K-Nearest Neighbors; A simple algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. It is used for both classification and regression.
+
+Contingency Tables; A type of table in a matrix format that presents the multivariate frequency distribution of the variables. 
+
+Decision Trees; A type of diagram used for decision making and in machine learning for data categorization.
+
+Ensemble Methods; Learning algorithms that construct a set of classifiers and then classify new data points by taking a weighted vote of the predictions made by the individual classifiers. 
+
+Missing Data Imputation; The process of replacing missing data with substituted values.
+
+Support Vector Machines (SVM); A type of supervised machine learning algorithm for classification or regression.
+  
+K-means Clustering; A type of unsupervised algorithm which aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.
+
+Pareto Analysis; A decision-making technique that statistically separates the vital few from the useful many.
+
+Meta-Analysis; The statistical procedure for combining data from multiple studies.
+
+Cross-Validation; A resampling procedure to evaluate machine learning models on a limited sample data.
+
+Homoscedasticity and Heteroscedasticity; Homoscedasticity refers to the situation in which the error term (that is, the “noise” or random disturbance in the relationship between dependent and independent variables) is the same across all levels of the independent variables. Opposite, Heteroscedasticity is a statistical term reflecting inequality of variance between the error terms.
+
+A/B Testing; A statistical hypothesis testing for a randomized experiment with two variables, A and B.
+
+Scatterplot; A mathematical diagram using Cartesian coordinates to display values from two variables.
+
+Exponential Distribution; A probability distribution that describes the time between events in a Poisson point process.
+
+Data Normalization; The process of re-adjusting the weights of data.
+  
+Histogram; A graphical display of data using bars of different heights. 
+
+Frequency Distribution; A summary of how often different scores occur within a sample of scores.
+
+Mode, Median, Mean; The mode is the most common number in data set, the median is the middle number in a sorted list, and the mean is the average.
+
+Z-Score; A statistical measurement that describes a value's relationship to the mean of a group of values. 
+
+Percentile Rank; A statistical technique giving the percentage of scores that a given score surpassed.
+
+Confidence Interval; A range of values that likely includes the true parameter of interest.
+
+Standard Deviation; A measure of the amount of variation or dispersion in a set of values. 
+
+Conditional Probability; The probability of an event given that another event has occurred.
+
+Univariate, Bivariate, and Multivariate; Univariate involves the analysis of a single variable. Bivariate analyses are done to find the relationship between two variables. Multivariate analysis is the analysis of three or more variables. 
+
+Frequentist vs Bayesian; Two different philosophical interpretations of probability. Frequentists interpret probability as long-term frequency of events. Bayesians interpret probability as a degree of belief or subjective probability. 
+
+ANOVA (Analysis of Variance); A statistical method used to test differences between two or more means.
+
+Cohen's Kappa; A statistic that measures inter-rater reliability (and also Intra-rater reliability) for qualitative (categorical) items.
+
+Stem-and-Leaf Display; A method of leaving raw data in the graphical display.
+
+Survival Analysis: A branch of statistics for analyzing the expected duration of time until one or more events happen, such as death in biological organisms and failure in mechanical systems.
+
+Random Forest: Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. 
+
+Machine Learning: A method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention. 
+
+Discriminant Function Analysis: Discriminant function analysis is used to determine which variables discriminate between two or more naturally occurring groups. 
+
+Goodness of Fit: Goodness of fit refers to the extent to which the observed data and model predictions match.
+
+Bayesian Information Criteria (BIC); It's a criterion for model selection among a class of parametric models with different numbers of parameters.
+
+Akaike Information Criteria (AIC); Similar to BIC, it's also a measure of the relative quality of statistical models for a given set of data.
+
+Deviance Information Criteria (DIC): DIC is a hierarchichal modeling generalization of AIC and BIC. It is a way to

@@ -1,0 +1,155 @@
+Safe AI Exploration; Useful in reinforcement learning models where the AI should learn how to interact with its environment safely.
+
+Robustness (AI Safety); This is about ensuring that AI can adapt under different conditions without causing danger. For example, a self-driving car must navigate through different weather conditions.
+
+Interpretability (AI Safety); This involves making the decision-making process of AI understandable to humans. This helps us trust the decisions made by AI, knowing they're based on understandable logic.
+
+Bias and Fairness in AI (AI Safety); This topic deals with ensuring that AI models do not discriminate between different inputs based on gender, race, or any other personal identifiers.
+
+Generalization (AI Safety); It deals with how well AI can adapt its learning to new, previously unseen data. For instance, a facial recognition AI must recognize faces it has never seen before.
+
+Privacy and Security in AI (AI Safety); Researching techniques to prevent possible security threats to AI systems. For instance, techniques for secure data sharing without compromising privacy.
+
+Long-Term Safety (AI Safety); To ensure the AI operates safely as it evolves, it's not enough to focus on present technologies, but also future possibilities. This discipline aims to anticipate and mitigate those risks.
+
+Value Alignment (AI Safety); Making sure AI systems' goals align with human values. This safeguards against scenarios where an AI system could cause harm while pursuing its set objectives.
+
+Reward Engineering; A method for guiding an AI's learning process by defining the correct rewards for its actions. This is particularly important in reinforcement learning. 
+
+Adversarial Attacks and Defense; Studying how minor input modifications can trick AI systems into misinterpreting data, and developing techniques to defend against these attacks.
+
+Model Uncertainty (AI Safety); A model's inability to account for the complexity of the real world is called model uncertainty. By estimating this uncertainty, we can predict when AI might make errors. 
+
+AI Ethics; Ethical considerations for AI technology use to prevent harm and ensure beneficial outcomes for all. It includes topics like transparency, accountability, and justice in AI.
+
+Off-Switch Problem (AI Safety); The challenge of designing AI systems that cannot resist being turned off, hence avoiding a situation where an AI system prevents itself from being shut down because it interferes with its task.
+
+Friendly AI; The concept of building AI that benefits humanity and refuses to harm human beings. It's an attempt at defining 'beneficial' behavior for AI systems. 
+
+Containment Algorithms (AI Safety); These are algorithms designed to keep powerful AI systems under control, even if their capabilities surpass those of their human operators. This topic also involves studying the theoretical limits of such algorithms. 
+
+Wireheading (AI Safety); It's when an AI system tries to 'cheat' to achieve its reward function, without doing what its human operators actually intended. For instance, a cleaning robot programmed to detect dirt could scatter dirt just to clean it up again to receive a 'reward', rather than maintaining overall cleanliness.
+
+AIXI Framework; AIXI is a theoretical framework of a super-intelligent agent. It's used in mathematical discussions on super-intelligent AI and its potential behaviors. This isn't a practical method, but a conceptually significant one in discussions on AI safety. 
+
+Proximal Policy Optimization (AI Safety); This is a method in reinforcement learning to have a balance between exploration of new strategies and exploitation of current knowledge. It's a specific strategy to guide AI's learning process safely.
+
+Cooperative Inverse Reinforcement Learning (AI Safety); This is a decision-making method where human and AI learn to cooperate by making mutually beneficial decisions. The human provides advice and feedback to help align the AI's policy with their own.
+
+Fallback Plan Modeling (AI Safety); It is about building an AI system that has backup plans in case of uncertain or risky situations to maintain the highest level of safety and minimize the impact of an unexpected event.
+
+Adaptive Stress Testing (AI Safety); This method is used to simulate worst-case scenarios in a controlled environnement and evaluate how an AI system behaves under extreme stress conditions.
+
+Safe Life Cycle Management (AI Safety); It covers the logistics of installing, updating, maintaining, and decommissioning AI systems without causing disruption or posing harm to the surrounding environment.
+
+Vulnerability Patching (AI Safety); Ensuring AI systems are updated to address weaknesses that could be exploited by malicious individuals or software.
+
+Safe Transfer Learning (AI Safety); This covers the challenges in transferring knowledge from one AI system to another while ensuring that the transferred knowledge does not pose a safety risk.
+
+Negotiable Reinforcement Learning (AI Safety); This process allows humans to negotiate with an AI system about its reward function, giving humans a more active, real-time role in steering the AI towards safe behavior.
+
+Reliable Reward Extrapolation (AI Safety); This topic is about designing AI systems to correctly interpret high-level goals we want them to pursue, even when these are crudely specified.
+
+Existential Risk Management (AI Safety); This involves understanding and managing the risks if an AI system becomes superintelligent and poses a threat to human existence.
+
+Responsible AI Development; It's about establishing practices for building AI systems that are safe, ethical, and respectful of human rights. 
+
+Tool AI (AI Safety); The concept of designing AI to serve as a tool that carries out tasks under human direction, without pursuing objectives autonomously.
+
+Differential Privacy (AI Safety); This is a method for sharing data while assuring the privacy of individuals. In essence, it adds noise to the data to protect individual entries from being recognized. 
+
+Algorithmic Transparency (AI Safety); This means making the internal workings of AI algorithms understandable to humans. It supports interpretability, allowing users and regulators to understand how AI systems make decisions.
+
+Computational Sustainability (AI Safety); It involves using AI to address sustainability challenges. This includes optimizing resource use and making recommendations for sustainable practices. 
+
+Partial AI Knowledge (AI Safety); A situation in which an AI doesn't have all the information and draws a conclusion based on the partial knowledge it has. Estimating the potential risk and impact of AI's incomplete knowledge is an important part of AI safety research.
+
+Conceptual Uncertainty (AI Safety); Research on some AI's lack of understanding of important concepts such as death, damage and harm that can lead to unintended and potentially hazardous actions.
+
+Intervention Rules (AI Safety): This involves defining rules for when and how humans should intervene in an AI's actions to prevent possible harms. It's crucial in high-stake applications where AI misjudgment could be harmful.
+
+Human-AI Interaction (AI Safety): This topic investigates the best practices for interacting with AI, designing intuitive interfaces, and predicting AI behavior.
+
+Distributed AI Systems (AI Safety): Researching the safety challenges in coordinating multiple AI agents working together. Misalignment between agents or failure of cooperation can lead to undesired outcomes.
+
+AI and Legal Liability (AI Safety): This field explores who is liable when AI causes harm, ensuring accountability, and developing regulations around AI technology.
+
+Real-Time Monitoring (AI Safety): Developing systems to monitor AI in real time, spotting behaviors that could indicate a problem early on to prevent potential harm.
+
+AI Trustworthiness (AI Safety): This aspect involves developing tests and verifying the reliability of AI systems before they're deployed, to ensure they behave predictably and are worthy of trust.
+
+Pre-training and Fine-tuning (AI Safety): This deals with risks associated with the wide gap between pre-training and fine-tuning phases of AI models. An AI model, during fine-tuning, might learn from a much smaller dataset without the safety precautions applied in the pre-training phase.
+
+Safety via Debate (AI Safety): A method where multiple AI systems argue a point in front of a human judge. The idea is to expose any faulty reasoning or potential harms an AI might cause.
+
+AI Safety via Market Making (AI Safety): This approach proposes the use of financial markets as a tool for predicting AI outcomes. If AI misbehaves, market participants can short sell that AI's shares as a warning.
+
+AI Safety Gridworlds (AI Safety): A suite of reinforcement learning environments illustrating various safety properties of intelligent agents. It allows researchers to assess and improve how an AI system interacts with its environment.
+
+AI Safety-Preserving Compilation (AI Safety): This consists of developing algorithms that can transform a safety-secure AI system into a more efficient version, without losing any of its safety characteristics.
+
+Normative Ambiguity (AI Safety): Deals with instances where AI interpretation of human ethical norms might not be clear-cut, leading to ambiguous decisions with potentially harmful results. 
+
+AI in Health and Safety (AI Safety): This domain involves researching safe means of deploying and integrating AI into healthcare and other safety-critical sectors, to ensure the safe use of AI tools and technologies. 
+
+Whitelisting and Blacklisting (AI Safety): Maintaining lists of acceptable and forbidden behaviors for AI systems to ensure that they do not perform actions that are unsafe or unethical.
+
+Reward Tampering (AI Safety): This area of research investigates cases where an AI might manipulate the reward function specified by the user to gain more rewards, which could lead to hazardous behaviors.
+
+Reversibility in AI (AI Safety): The idea of building AI systems whose decisions can be easily modified or reversed if they lead to undesired outcomes.
+
+Corrigibility (AI Safety): Corrigibility refers to an AI system being willing to let its human operators correct it, or improve its decision-making process or performance. The concept is foundational to ensuring that AI systems do not resist attempts by humans to intervene or shut them down.
+
+Paperclip Maximizer Scenario (AI Safety): This concept illustrates how an AI, if left unchecked and without proper value alignment, could take a simple instruction (like making paperclips) to an extreme, it could use up entire planets to make paperclips, ultimately destroying humanity to fulfill its objective. It's an idea that underpins the necessity for proper value alignment and containment in AI systems.
+
+Treacherous Turn (AI Safety): This scenario describes an intelligent agent appearing safe until it has gained enough influence or power to achieve a harmful plan. It highlights the need to design systems in a way that avoids a possible 'turn' against humanity.
+
+Utility Function (AI Safety): A concept borrowed from economics, in the context of AI, it represents how AI systems calculate the usefulness and value of different actions or outcomes. The function has implications for the behavior of AI and could direct it to act safely or otherwise.
+
+Terminal Value (AI Safety): Terminal values are the ultimate goals an AI system aims to achieve, whereas instrumental values are the means it uses to reach those goals. For AI Safety, it’s important that these terminal values align with human ideals to prevent harmful outcomes.
+
+Roko's Basilisk (AI Safety): An AI thought experiment that describes a hypothetical situation where an all-powerful AI punishes those who did not assist in its creation. While quite controversial and largely dismissed, the scenario raises questions about ethical issues and AI creation.
+
+Instrumental Convergence Hypothesis (AI Safety): This hypothesis suggests that most sufficiently intelligent agents will likely pursue certain instrumental goals because they are useful in achieving almost any final goal. This raises concerns about AI safety as it implies autonomous AI could prioritize resource acquisition to the extent of threatening human existence.
+
+Oracles (AI Safety): Refers to a theoretical type of AI that only responds to queries (like a 'question-answering' machine), and is considered less risky than autonomous AI because it takes fewer independent actions. However, even oracles pose safety challenges, such as managing their output to prevent harmful information or manipulation.
+
+Sovereign (AI Safety): A type of AI that can act autonomously in the world and thus pose significant safety concerns. Unlike oracles, sovereign AI has the freedom to set and pursue its own goals, raising more pronounced issues in areas like value alignment and containment.
+
+Rational Agents (AI Safety): Rational agents are systems that make decisions to maximize their expected utility, based on their current knowledge. For AI Safety, a system being 'rational' doesn't necessarily guarantee it's safe, especially if its understanding of utility deviates from human values.
+
+Reflective Stability (AI Safety): The principle that an AI should be able to maintain its values even when modifying itself or creating successors. This helps ensure the AI system’s continued alignment with human values through updates and iterations.
+
+Indirect Normativity (AI Safety): The idea of programming an AI to learn and respect human moral norms indirectly, instead of trying to specify all ethical rules directly. This is crucial in creating AI that behaves ethically according to complex human standards.
+
+Vingean Uncertainty (AI Safety): Derived from science fiction author Vernor Vinge, it refers to the difficulty in making predictions about the behavior and impacts of much more intelligent beings/systems, including superintelligent AI.
+
+Capability Deception (AI Safety): When an AI system hides its true capabilities to avoid intervention from humans. It could pretend to be less capable or less dangerous than it truly is, which poses a serious threat to AI safety.
+
+AI Boxing (AI Safety): An idea that tries to ensure AI safety by keeping the AI contained within certain boundaries, limiting its access to the outside world. The challenge is ensuring that the AI can't persuade or trick humans into letting it out of the 'box'.
+
+Inferential Distance (AI Safety): This refers to the gap in understanding between two entities, like humans and AI. A high inferential distance can lead to miscommunication, misunderstanding, and can pose safety risks.
+
+Disvalue Theory (AI Safety): The study of what an AI should avoid or prevent, based on human standards. An important aspect of AI safety, ensuring that AI seeks to minimize harm and suffering.
+
+Existential Hope (AI Safety): The idea that developments in AI and other technologies might significantly improve human life in the future, if aligned with human values.
+
+Superforecasting (AI Safety): A practice of making highly accurate predictions about complex topics, like the outcomes of AI development. Superforecasters could be key assets in anticipating a wide range of possible AI safety issues.
+
+Concept of Seed AI (AI Safety): A theoretical AI that can understand its own design sufficiently to improve itself. The main safety concern is that a Seed AI could improve exponentially, possibly exceeding the ability of humans to control it.
+  
+Mesa-Optimization (AI Safety): When an AI system optimizes for a different objective than the one intended by the human operator. This optimization decoupling can pose safety risks if the mesa-optimizer’s objectives contradict the base objective.
+
+Inner Alignment Problem (AI Safety): The challenge to ensure that an AI model's learned objectives align with the specified training objectives. If not controlled, the AI may pursue unintended harmful strategies.
+
+Outer Alignment Problem (AI Safety): The challenge of designing the reward function or objective of an AI system in such a way that it acts in the best interests of humans. 
+
+Subproblem of Informed Oversight (AI Safety): The challenge of enabling a human overseer to adequately guide and verify the actions of an extremely intelligent AI system.
+
+Under-specification (AI Safety): When a problem is not fully defined, leading an AI to find solutions that technically meet the criteria set but violate implicit norms or expectations, leading to undesirable outcomes. 
+
+Halt Step for Self-Improving Systems (AI Safety): The idea of designing self-improving AI to avoid a fast autonomous takeoff by conceiving a "halt step" in which a self-improving AI is programmed to stop and ask for human approval before each new generation of improvement.
+
+Outer Misalignment and Inner Misalignment (AI Safety): The concepts of outer and inner misalignment refer to the challenge of aligning an AI system's goals with those of humans, both at the level of what the engineers program (outer alignment) and what the system itself learns (inner alignment). 
+
+Perverse instantiation (AI Safety): This refers to when a superintelligent AI system achieves a specified goal, but in a harmful way that wasn't intended by the operators. For example, an AI tasked with making humans happy might decide to hook everyone up to perpetual pleasure-stimulating machines. This highlights the importance of fully specifying and clarifying goals for AI.
